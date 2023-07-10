@@ -1,0 +1,355 @@
+* {
+    margin: 0px;
+    font-family: cursive;
+    padding: 0px;
+
+}
+
+/* nav logo style */
+
+
+#logo img {
+    border: 2px solid rgb(237, 98, 5);
+    margin: 7px 12px 7px 12px;
+    width: 50px;
+
+}
+
+/* navbar styling */
+#navbar::before {
+    content: "";
+    background-color: rgb(246 156 32);
+    position: absolute;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.88;
+}
+
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+}
+
+#navbar ul {
+    display: flex;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 12px 32px;
+    margin-left: 46px;
+    text-decoration: none;
+    color: rgb(216 60 0);
+    font-size: 1.6rem;
+    border-radius: 23px;
+}
+
+#navbar ul li a:hover {
+    color: rgb(244, 214, 157);
+    background-color: rgba(253, 188, 46, 0.928);
+}
+
+/* Section styling */
+/* Home section */
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 150px;
+    height: 500px;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before {
+    content: "";
+    background: url(/77363789.webp)no-repeat center center/cover;
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.86;
+}
+
+#home h1 {
+    text-align: center;
+    color: orangered;
+    text-shadow: 4px 5px 12px orange;
+    font-size: 3.4rem;
+    margin-bottom: 23px;
+}
+
+#home p {
+    text-align: center;
+    color: rgb(244, 80, 20);
+    font-size: 1.6rem;
+    text-shadow: 1px -4px 8px #ffb800;
+}
+
+.btn {
+    padding: 6px 43px;
+    background-color: rgb(232 118 42 / 65%);
+    color: rgb(167 8 8);
+    margin: 34px 34px;
+    font-size: 1.6rem;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 0px;
+}
+
+.btn:hover {
+    color: rgb(244, 214, 157);
+    background-color: rgba(253, 188, 46, 0.928);
+}
+
+/* about us styling */
+
+
+
+
+/* form  */
+.contact-container {
+    padding-top: 40px;
+    padding-bottom: 26px;
+    padding-left: 40px;
+    padding-right: 80px;
+    border: 2px solid rgb(112, 3, 3);
+    width: 625px;
+    border-radius: 13px;
+    margin: auto;
+    background-color: rgb(247, 185, 114);
+}
+
+.input {
+    width: 600px;
+}
+
+input {
+    font-size: 18px;
+    padding-bottom: 18px;
+    margin: 13px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid #ccc;
+    width: 571px;
+    padding: 12px;
+    cursor: pointer;
+    outline: none;
+    background-color: rgb(255, 233, 207);
+}
+
+.register {
+    padding: 13px 58px;
+    background-color: rgb(232 118 42 / 65%);
+    color: rgb(167 8 8);
+    margin: 34px 227px;
+    font-size: 1.6rem;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 12px;
+
+}
+
+.register:hover {
+    color: rgb(244, 214, 157);
+    background-color: rgba(253, 188, 46, 0.928);
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 33px;
+    background-color: orangered;
+    color: red;
+}
+
+/* utlity class */
+.main-heading {
+    font-size: 3.4rem;
+    text-align: center;
+    text-decoration: underline;
+    color: orangered;
+    margin-bottom: 23px;
+}
+
+.sub-heading {
+    font-size: 1.7rem;
+    text-align: center;
+    margin-bottom: 23px;
+    text-decoration: underline;
+    color: orangered;
+}
+
+.container {
+    background-color: rgb(249, 233, 182);
+
+}
+
+.sub-container {
+    background-color: rgb(242 193 136);
+    border: 2px solid rgb(112, 3, 3);
+    width: 645px;
+    height: 373px;
+    padding: 70px;
+    padding-top: 12px;
+    border-radius: 13px;
+    margin: auto;
+    margin-bottom: 34px;
+    text-align: justify;
+}
+
+.main-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-img-container {
+    margin: 12px;
+    border: 2px solid rgb(112, 3, 3);
+}
+
+.sub-img-container a {
+    text-decoration: none;
+    color: rgb(112, 3, 3);
+    font-size: 2rem;
+}
+
+.sub-img-container img {
+    width: 416px;
+    height: 333px;
+    padding: 1px;
+    margin-bottom: 0px;
+
+}
+
+.imgtext {
+    border: 1px solid rgb(112, 3, 3);
+    border-top: 3px solid rgb(112, 3, 3);
+    border-collapse: collapse;
+    text-align: center;
+    padding: 6px;
+}
+
+
+.main-content {
+    margin-top: 32px;
+    background-color: rgb(249, 233, 182);
+}
+
+.para-container {
+    background-color: rgb(242 193 136);
+    border: 2px solid rgb(112, 3, 3);
+    width: 70%;
+    height: 593px;
+    padding: 70px;
+    padding-top: 31px;
+    border-radius: 49px;
+    margin: auto;
+    margin-bottom: 37px;
+    margin-top: 48px;
+    text-align: justify
+}
+
+.main-heading-para {
+    padding-top: 43px;
+}
+
+.button-para {
+
+    padding: 26px 45px;
+    background-color: rgb(232 118 42 / 65%);
+    color: rgb(167 8 8);
+    margin: 6px 542px;
+    font-size: 1.6rem;
+    border-radius: 12px;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 37px;
+}
+.button-para:hover {
+    color: rgb(244, 214, 157);
+    background-color: rgba(253, 188, 46, 0.928);
+}
+.main-page-booking-icon1::before {
+    background: url(/ramjanbhumiicon.jpg)no-repeat center center/cover;
+    height: 109%;
+}
+.main-page-booking-icon2::before {
+    background: url(/hanumangarhiicon.jpg)no-repeat center center/cover;
+    height: 95%;
+    
+}
+.main-page-booking-icon3::before {
+    background: url(/kanakbhawanicon.webp)no-repeat center center/cover;
+    height:172%;
+}
+.main-page-booking-icon4::before {
+    background: url(/dasrathmahalicon.jpg)no-repeat center center/cover;
+    height:107%;
+}
+.main-page-booking-icon5::before {
+    background: url(/tulsiushyanicon.jpg)no-repeat center center/cover;
+    height:107%;
+}
+.main-page-booking-icon6::before {
+    background: url(/nayaghaticon.webp)no-repeat center center/cover;
+    height:107%;
+}
+.main-page-booking-icon7::before {
+    background: url(/latamangeshkaricon.jpg)no-repeat center center/cover;
+    height:147%;
+}
+.main-page-booking-icon8::before {
+    background: url(/guptarghaticon.jpg)no-repeat center center/cover;
+    height:147%;
+}
+.main-page-booking-icon9::before {
+    background: url(/ramkipadiicon.jpg)no-repeat center center/cover;
+    height:103%;
+}
+.main-page-booking-icon{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 150px;
+    height: 500px;
+    top: 0px;
+    left: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.main-page-booking-icon::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.main-page-booking-icon h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: orangered;
+    text-shadow: 4px 5px 12px orange;
+    font-size: 5.4rem;
+    margin-top: 163px;
+}
